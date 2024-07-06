@@ -10,7 +10,7 @@
 }
 
 body{
-  background-image: url(../../receita/image/bg.jpg);
+  background-image: url(../../../assets/receita/image/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
