@@ -25,7 +25,7 @@
         <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
 
         <form method="post" enctype="multipart/form-data">
-          <fieldset>
+          <fieldset class="child-info">
             <legend>Informações da criança</legend>
 
             <div class="input-wrapper">
@@ -72,6 +72,39 @@
             </div>
 
           </fieldset>
+
+          <fieldset class="address">
+            <legend>Endereço residencial</legend>
+
+            <div class="input-wrapper">
+              <label for="cep">CEP</label>
+              <input id="cep" name="cep" type="text" placeholder="Qual o nome da criança?">
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="street">Rua</label>
+                <input id="street" name="street" type="text" value="Rua das Flores" disabled>
+              </div>
+              <div class="input-wrapper flex-1">
+                <label for="number">Número</label>
+                <input id="number" name="number" type="number">
+              </div>
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="city">Cidade</label>
+                <input id="city" name="city" type="text" value="São Paulo" disabled>
+              </div>
+              <div class="input-wrapper flex-1">
+                <label for="state">Estado</label>
+                <input id="state" name="state" type="text" value="SP" disabled>
+              </div>
+            </div>
+
+          </fieldset>
+
         </form>
       </div>
     </main>
