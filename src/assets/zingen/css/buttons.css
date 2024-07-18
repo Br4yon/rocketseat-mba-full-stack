@@ -1,0 +1,35 @@
+.btn{
+  border: 0;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: .5rem;
+
+  font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
+  background: var(--text-color-primary);
+  color: var(--bg-color);
+}
+
+.btn:hover{
+  background: var(--brand-color-gradient);
+  color: var(--surface-color);
+}
+
+.btn-sm{
+  padding: .5rem 1rem;
+  font-size: var(--fs-sm);
+}
+
+.btn-md{
+  padding: .75rem 1.5rem;
+  font-size: var(--fs-base);
+}
+
+.btn-lg{
+  padding: 1rem 2rem;
+  font-size: var(--fs-lg);
+}
